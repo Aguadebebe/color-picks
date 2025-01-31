@@ -6,8 +6,8 @@ const PreviewBox = ({ colors, color, curly1, curly2, bra1, bra2, currentIndex })
 
     return (
         <div> 
-          <div style={{ textAlign: "center", fontSize: "3em" }}>colors = {bra1}</div>
-            <div style={{ textAlign: "center", fontSize: "3em" }}>
+          <div className="colors-array">colors = {bra1}</div>
+            <div className="colors-array">
                 {colors.map((colorItem, index) => {
                   const appliedColor = index === currentIndex ? color : "black"; // applys color only to the currentIndex
                   return ( 
