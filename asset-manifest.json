@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Aguadebebe/color-picks/settings/pages/static/css/main.ecc0f8d7.css",
-    "main.js": "/Aguadebebe/color-picks/settings/pages/static/js/main.bef07532.js",
-    "index.html": "/Aguadebebe/color-picks/settings/pages/index.html",
-    "main.ecc0f8d7.css.map": "/Aguadebebe/color-picks/settings/pages/static/css/main.ecc0f8d7.css.map",
-    "main.bef07532.js.map": "/Aguadebebe/color-picks/settings/pages/static/js/main.bef07532.js.map"
+    "main.css": "/color-picks/static/css/main.ecc0f8d7.css",
+    "main.js": "/color-picks/static/js/main.bef07532.js",
+    "index.html": "/color-picks/index.html",
+    "main.ecc0f8d7.css.map": "/color-picks/static/css/main.ecc0f8d7.css.map",
+    "main.bef07532.js.map": "/color-picks/static/js/main.bef07532.js.map"
   },
   "entrypoints": [
     "static/css/main.ecc0f8d7.css",
