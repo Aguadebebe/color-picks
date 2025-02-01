@@ -1,9 +1,16 @@
 
 
-const ColorPicker = ({ handleColorPicker }) => {
+const ColorPicker = ({ handleColorPicker, handleMessagePick }) => {
     return (
         <div>
-          <button onClick={handleColorPicker} className="button">Change Color</button>
+          <button 
+           onClick={() => {
+            handleColorPicker();
+            handleMessagePick();
+           }} className="button"
+           >
+           Change Color
+          </button>
         </div>
     );
 };
