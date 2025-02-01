@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/color-picks/static/css/main.11d18f87.css",
-    "main.js": "/color-picks/static/js/main.9b1865ba.js",
+    "main.css": "/color-picks/static/css/main.75201d75.css",
+    "main.js": "/color-picks/static/js/main.efdf075f.js",
     "index.html": "/color-picks/index.html",
-    "main.11d18f87.css.map": "/color-picks/static/css/main.11d18f87.css.map",
-    "main.9b1865ba.js.map": "/color-picks/static/js/main.9b1865ba.js.map"
+    "main.75201d75.css.map": "/color-picks/static/css/main.75201d75.css.map",
+    "main.efdf075f.js.map": "/color-picks/static/js/main.efdf075f.js.map"
   },
   "entrypoints": [
-    "static/css/main.11d18f87.css",
-    "static/js/main.9b1865ba.js"
+    "static/css/main.75201d75.css",
+    "static/js/main.efdf075f.js"
   ]
 }
