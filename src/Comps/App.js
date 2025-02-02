@@ -1,11 +1,15 @@
 import ColorPicker from "./ColorPicker";
 import PreviewBox from "./PreviewBox";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import '../App.css';
 
 const App = () =>{
 
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    console.log( "The current index is:", currentIndex);
+  }, [currentIndex]);
 
    const colors = [
     {id: 0, title: "blue"},
