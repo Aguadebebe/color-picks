@@ -1,5 +1,5 @@
-import NakedColor from "./NakedColor";
-import Description from "./Description";
+import NakedColor from "../GrandchildComps/NakedColor";
+import Description from "../GrandchildComps/Description";
  
 const PreviewBox = ({ 
   colors, 

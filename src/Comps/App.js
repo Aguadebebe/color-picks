@@ -1,4 +1,4 @@
-import ColorHandler from "./ ColorHandler";
+import ColorHandler from "./ChildComps/ColorHandler";
 import '../App.css';
 
 const App = () => {
