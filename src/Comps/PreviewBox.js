@@ -13,7 +13,7 @@ const PreviewBox = ({
 
 {
   const { bra1, bra2 } = sBrackets; // de-structure sBrackets instead of sbrackets.bra1 etc. 
-  const { curly1, curly2 } = cBrackets;  // de-struvture cBrackets instead of cBrackets.curly1 etc.
+  const { curly1, curly2 } = cBrackets;  // de-structure cBrackets instead of cBrackets.curly1 etc.
     
 
     return (
