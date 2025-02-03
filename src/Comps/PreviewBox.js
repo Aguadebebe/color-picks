@@ -1,9 +1,20 @@
 import NakedColor from "./NakedColor";
 import Description from "./Description";
  
-const PreviewBox = ({ colors, color, curly1, curly2, bra1, bra2, currentIndex, messages, message }) => {
+const PreviewBox = ({ 
+  colors, 
+  color, 
+  sBrackets, 
+  cBrackets,
+  currentIndex, 
+  messages, 
+  message 
+}) => 
+
+{
+  const { bra1, bra2 } = sBrackets; // de-structure sBrackets instead of sbrackets.bra1 etc. 
+  const { curly1, curly2 } = cBrackets;  // de-struvture cBrackets instead of cBrackets.curly1 etc.
     
-   
 
     return (
         <div> 
@@ -15,7 +26,7 @@ const PreviewBox = ({ colors, color, curly1, curly2, bra1, bra2, currentIndex, m
                    <NakedColor 
                     key={colorItem.id}
                     colors={colorItem}
-                    curly1={curly1} 
+                    curly1={curly1}
                     curly2={curly2}
                     appliedColor={appliedColor}
                    />
@@ -39,4 +50,4 @@ const PreviewBox = ({ colors, color, curly1, curly2, bra1, bra2, currentIndex, m
 
 export default PreviewBox;
 
-   //messages={messages[currentIndex]}
+  

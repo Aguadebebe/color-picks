@@ -39,13 +39,17 @@ const ColorHandler = () => {
 
     const currentColor = colors[currentIndex].title;
 
-   const currentMessage = messages[currentIndex].title;
+    const currentMessage = messages[currentIndex].title;
    
-   const bra1 = "[";
-   const bra2 = "];";
-   const curly1 = "{";
-   const curly2 = "}";
-  
+    const cBrackets = {
+     curly1: "{",
+     curly2: "}"
+    };
+
+    const sBrackets = {
+     bra1: "[",
+     bra2: "];"
+    };
 
     return (
       <div>
@@ -60,10 +64,8 @@ const ColorHandler = () => {
       messages={messages}
       message={currentMessage}
       currentIndex={currentIndex}
-      bra1={bra1}
-      bra2={bra2}
-      curly1={curly1}
-      curly2={curly2}
+      cBrackets={cBrackets}
+      sBrackets={sBrackets}
     />
      </div>
     );
