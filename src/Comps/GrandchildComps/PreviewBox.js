@@ -1,6 +1,7 @@
-import NakedColor from "../GrandchildComps/NakedColor";
-import Description from "../GrandchildComps/Description";
- 
+import ColorsArrayObjects from "./ColorsArrayObjects";
+import Description from "./Description";
+import DefineColorsArray from "./DefineColorsArray";
+import CloseColorsArray from "./CloseColorsArray";
 const PreviewBox = ({ 
   colors, 
   color, 
@@ -18,12 +19,12 @@ const PreviewBox = ({
 
     return (
         <div> 
-          <div className="colors-array">colors = {bra1}</div>
+            <DefineColorsArray  bra1={bra1} />
             <div className="colors-array">
                 {colors.map((colorItem, index) => {
                   const appliedColor = index === currentIndex ? color : "black"; // applys color only to the currentIndex
                   return ( 
-                   <NakedColor 
+                   <ColorsArrayObjects 
                     key={colorItem.id}
                     colors={colorItem}
                     curly1={curly1}
@@ -34,7 +35,7 @@ const PreviewBox = ({
                   );
               })}
             </div>
-          <div style={{ textAlign: "center", fontSize: "2em" }}>{bra2}</div>
+            <CloseColorsArray  bra2={bra2} />
           <div>
            {message && (
             <Description 
@@ -46,7 +47,7 @@ const PreviewBox = ({
         </div>
         
     );
-};
+}
 
 export default PreviewBox;
 

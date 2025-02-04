@@ -13,6 +13,6 @@ const ColorPicker = ({ handleColorPicker, handleMessagePick }) => {
           </button>
         </div>
     );
-};
+}
 
 export default ColorPicker;

@@ -1,16 +1,11 @@
-import { useState, useEffect } from "react";
-import ColorPicker from "./ColorPicker";
-import PreviewBox from "./PreviewBox";
+import { useState } from "react";
+import ColorPicker from "../GrandchildComps/ColorPicker";
+import PreviewBox from "../GrandchildComps/PreviewBox";
+import ColorBox from "../GrandchildComps/ColorBox";
 
 const ColorHandler = () => {
     const [currentIndex, setCurrentIndex] = useState(0); 
   
-    useEffect(() => {
-      console.log( "The current index is:", currentIndex);
-    }, [currentIndex]);
-  
-    
-    
     const colors = [
         {id: 0, title: "blue"},
         {id: 1, title: "green"},
@@ -57,6 +52,7 @@ const ColorHandler = () => {
          handleColorPicker={handleColorPicker}
          handleMessagePick={handleMessagePick}
        />
+       <ColorBox color={currentColor}/>
 
        <PreviewBox
       colors={colors}
@@ -69,6 +65,6 @@ const ColorHandler = () => {
     />
      </div>
     );
-};
+}
 
 export default ColorHandler;

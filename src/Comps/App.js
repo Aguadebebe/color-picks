@@ -1,3 +1,4 @@
+import Header from "./ChildComps/Header";
 import ColorHandler from "./ChildComps/ColorHandler";
 import '../App.css';
 
@@ -5,11 +6,10 @@ const App = () => {
 
    return (
     <div> 
-      <header className="color-picker">Color Picker</header>
-    
+      <Header />
       <ColorHandler />
     </div>
   );
-};
+}
 
 export default App;

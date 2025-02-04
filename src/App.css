@@ -5,7 +5,7 @@ body {
 .color-picker {
     Padding: 1em;
     font-family:'Times New Roman', Times, serif;
-    font-size: 3em;
+    font-size: 3.3em;
     color:rgba(217, 20, 99, 0.944);
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.7);
 }
@@ -17,6 +17,11 @@ body {
     color: white;
     background-color: rgb(83, 78, 78);
     cursor: pointer;
+}
+.color-box {
+    width: 100vw;
+    height: 5vh;
+    margin-top: 1vh;
 }
 
 .colors-array {
