@@ -3,8 +3,7 @@
 const CloseColorsArray = ({ bra2 }) => {
     return (
         <div style={{ 
-            textAlign: "center", 
-            paddingRight: "15vw", 
+            textAlign: "center",  
             fontSize: "2em" 
       }}>
          {bra2}
