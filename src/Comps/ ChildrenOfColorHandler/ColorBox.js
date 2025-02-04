@@ -1,4 +1,4 @@
- 
+import "../../CSS/ColorBox.css"; 
 
 const ColorBox = ({ color }) => {
     

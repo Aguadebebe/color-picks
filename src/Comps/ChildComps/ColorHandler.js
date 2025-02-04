@@ -1,7 +1,7 @@
 import { useState } from "react";
-import ColorPicker from "../GrandchildComps/ColorPicker";
-import PreviewBox from "../GrandchildComps/PreviewBox";
-import ColorBox from "../GrandchildComps/ColorBox";
+import ColorPicker from "../ ChildrenOfColorHandler/ColorPicker";
+import PreviewBox from "../ ChildrenOfColorHandler/PreviewBox";
+import ColorBox from "../ ChildrenOfColorHandler/ColorBox";
 
 const ColorHandler = () => {
     const [currentIndex, setCurrentIndex] = useState(0); 
@@ -15,11 +15,11 @@ const ColorHandler = () => {
     ];
     
     const messages = [
-        {id: 0, title: "Zero is the 1st index of the colors array"},
-        {id: 1, title: "One is the 2nd index of the colors array"},
-        {id: 2, title: "Two is the 3rd index of the colors array"},
-        {id: 3, title: "Three is the 4th index of the colors array"},
-        {id: 4, title: "Four is the 5th index of the colors array"},
+        {id: 0, title: "0 is the 1st index of the colors array"},
+        {id: 1, title: "1 is the 2nd index of the colors array"},
+        {id: 2, title: "2 is the 3rd index of the colors array"},
+        {id: 3, title: "3 is the 4th index of the colors array"},
+        {id: 4, title: "4 is the 5th index of the colors array"},
     ];
     
     function handleColorPicker() {

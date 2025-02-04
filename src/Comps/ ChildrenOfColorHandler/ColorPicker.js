@@ -1,4 +1,4 @@
-
+import "../../CSS/ColorPicker.css";
 
 const ColorPicker = ({ handleColorPicker, handleMessagePick }) => {
     return (
@@ -7,7 +7,7 @@ const ColorPicker = ({ handleColorPicker, handleMessagePick }) => {
            onClick={() => {
             handleColorPicker();
             handleMessagePick();
-           }} className="button"
+           }} className="color-picker-button"
            >
            Change Color
           </button>

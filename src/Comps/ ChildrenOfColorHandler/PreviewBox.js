@@ -1,7 +1,8 @@
-import ColorsArrayObjects from "./ColorsArrayObjects";
-import Description from "./Description";
-import DefineColorsArray from "./DefineColorsArray";
-import CloseColorsArray from "./CloseColorsArray";
+import ColorsArrayObjects from "./ ChildrenOfPreviewBox/ColorsArrayObjects";
+import Description from "./ ChildrenOfPreviewBox/Description";
+import DefineColorsArray from "./ ChildrenOfPreviewBox/DefineColorsArray";
+import CloseColorsArray from "./ ChildrenOfPreviewBox/CloseColorsArray";
+ 
 const PreviewBox = ({ 
   colors, 
   color, 
@@ -20,7 +21,7 @@ const PreviewBox = ({
     return (
         <div> 
             <DefineColorsArray  bra1={bra1} />
-            <div className="colors-array">
+            <div className="define-colors-array">
                 {colors.map((colorItem, index) => {
                   const appliedColor = index === currentIndex ? color : "black"; // applys color only to the currentIndex
                   return ( 

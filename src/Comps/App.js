@@ -1,6 +1,6 @@
 import Header from "./ChildComps/Header";
 import ColorHandler from "./ChildComps/ColorHandler";
-import '../App.css';
+import '../CSS/App.css';
 
 const App = () => {
 

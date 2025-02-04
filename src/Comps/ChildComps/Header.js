@@ -1,8 +1,8 @@
-
+import "../../CSS/Header.css";
 
 const Header = () => {
     return (
-        <header className="color-picker">Color Picker</header>
+        <header className="header">Color Picker</header>
     );
 }
 
