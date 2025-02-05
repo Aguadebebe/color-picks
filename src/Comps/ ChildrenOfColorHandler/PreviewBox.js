@@ -1,7 +1,8 @@
-import ColorsArrayObjects from "./ ChildrenOfPreviewBox/ColorsArrayObjects";
-import Description from "./ ChildrenOfPreviewBox/Description";
 import DefineColorsArray from "./ ChildrenOfPreviewBox/DefineColorsArray";
+import ColorsArrayObjects from "./ ChildrenOfPreviewBox/ColorsArrayObjects";
 import CloseColorsArray from "./ ChildrenOfPreviewBox/CloseColorsArray";
+import Description from "./ ChildrenOfPreviewBox/Description";
+ 
  
 const PreviewBox = ({ 
   colors, 
